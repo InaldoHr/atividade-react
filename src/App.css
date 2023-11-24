@@ -32,7 +32,80 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+body {
+  text-align: center;
+}
+
+body {
+  margin: 10px; /* Removendo a margem padrão do corpo da página */
+  margin-top: 0px;
+  background-color: #1f1e1e;
+  color: white;
+}
+h2{
+  color: red;
+}
+
+.ul1 {
+  
+  list-style: none;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around; /* Para espaçar uniformemente os itens na largura total */
+  background-color: #000000; /* Adicionando cor de fundo à barra de navegação */
+}
+
+.li1 {
+  background-color: #000000;
+}
+
+/* Removendo sublinhado dos links */
+a {
+  text-decoration: none;
+}
+
+/* Estilizando os links para parecerem botões */
+a {
+  padding: 30px 110px;
+  border-radius: 5px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/* Adicionando cor de fundo no hover */
+a:hover {
+  background-color: #0f12af;
+}
+.active {
+  background-color: #0f12af;
+}
+.servicinhos{
+  display: flex;
+  justify-content: center;
+
+}
+.mensagem{
+width: 300px;
+}
+.footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+  
+
+
+
